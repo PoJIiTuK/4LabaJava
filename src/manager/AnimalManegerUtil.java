@@ -25,7 +25,7 @@ public class AnimalManegerUtil {
 			}
 
 		}
-
+//
 		public static void sortByPointDelfins(List<AbstractAnimal> animals, SortType sortType) {
 			Comparator<AbstractAnimal> comparator = Comparator.comparing(AbstractAnimal::getPoint);
 			animals.sort(sortType == SortType.ASCENDING ? comparator : comparator.reversed());
